@@ -13,7 +13,7 @@ html, body, figure, img, div, input, p, h1, h2, h3, h4, h5, h6, ul, li, a, main 
     width: 100%;
     max-width: 1125px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
 }
 
 .linha {
@@ -23,13 +23,13 @@ html, body, figure, img, div, input, p, h1, h2, h3, h4, h5, h6, ul, li, a, main 
    justify-content: space-between;
 }
 
-.coluna {
-    flex-basis: 50%;
-}
+/*.coluna {
+    flex-basis: 60%;
+} */
 
 .hidden {
     display: none;
-}
+} 
 
 /* BODY */
 body {
@@ -50,20 +50,24 @@ header .linha{
     align-items: center;
 }
 header .coluna{}
+
 header .coluna-esquerda {
     flex-basis: 30%;
 }
+
+
 header .coluna-direita {
     flex-basis: 70%;
 }
+
 header .coluna figure{}
+
 header .coluna img{
 
-    max-width: 250px;
-    border-radius: 30px;
-    
-   
+    max-width: 180px;
+    border-radius: 10px; 
 }
+
 header .coluna h1{
     font-size: 1rem;
    
@@ -86,28 +90,47 @@ header .coluna ul li a{
 
 /* FOOTER */
 footer{}
-footer .container{}
+footer .container{
+    padding: 20px;
+}
 footer nav{}
 footer nav ul{}
 footer nav ul li{}
-footer nav ul li a{}
+footer nav ul li a{
+    color: #0000ff;
+}
 footer nav .info-contato{}
-footer nav .info-contato li{}
+footer nav .info-contato li{
+    margin: 0 0 15px;
+}
 footer nav .info-contato li a{}
-footer nav .redes-sociais{}
-footer nav .redes-sociais li{}
+footer nav .redes-sociais{
+    border-top: 1px solid rgb(255 255 255 / 20%);
+    margin: 20px 0 50px;
+    padding: 50px 0 0;
+    text-align: center;
+}
+footer nav .redes-sociais li{
+    margin: 15px 28px;
+    text-align: center;
+    display: inline-block;
+}
 footer nav .redes-sociais li a{}
 footer nav .redes-sociais li a img{
     max-width: 100px;
 }
-footer nav .redes-sociais li a img{}
+footer nav .redes-sociais li a img{
+    width: 40px;
+}
 
 
 /* PAGINA INICIAL */
 main{}
 main .container{}
 main .linha{}
-main .coluna{}
+main .coluna{
+    padding: 20px;
+}
 main .coluna-esquerda{}
 main .coluna-direita{}
 main .coluna section{
